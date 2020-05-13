@@ -1,11 +1,16 @@
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
 
 body {
-  background: #F7F9FC;
   color: #575F7D;
   font-family: 'Lora', serif;
   font-size: 17px;
   font-weight: lighter;
+}
+
+#animated-are {
+  background-image:
+  url(images/source.gif);
+  height: 100%;
 }
 
 h1, h2, h3 {
@@ -31,7 +36,7 @@ h1, h2, h3 {
 }
 
 h2 {
-    color: #7ECE90;
+    color: #30475E;
     font-size: 20px;
     font-weight: lighter;
     font-weight: 500;
@@ -49,7 +54,8 @@ a:hover {
 }
 
 .btn-blue {
-    background-color: #6B72E1;
+    background-color: #30475E;
+    opacity: 100%;
     color: white;
     padding: 15px 20px;
     border-radius: 4px;
@@ -66,12 +72,14 @@ ul {
 }
 
 .card-white {
-    background-color: white;
+    background-color: black;
+    opacity: 90%;
     padding: 40px;
     box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
     border-radius: 4px;
     margin: 20px 0px;
     text-align: center;
+    color: white;
 }
 .container {
     width: 700px;
